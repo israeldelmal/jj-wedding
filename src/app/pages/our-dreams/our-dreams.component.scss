@@ -1,0 +1,28 @@
+:host {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	gap: 2rem 0;
+	padding: 0 2rem;
+}
+
+img {
+	display: block;
+	width: 75%;
+	border-radius: 50%;
+	box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 32%);
+}
+
+p {
+	text-align: center;
+	font-size: 1.75rem;
+}
+
+sub {
+	display: inline-block;
+	font-weight: bold;
+	text-decoration: underline;
+	font-style: italic;
+	font-size: 1.3rem;
+}

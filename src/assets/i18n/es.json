@@ -1,0 +1,32 @@
+{
+	"MENU": {
+		"WELCOME": "Bienvenido",
+		"PASSES": "Pases",
+		"SCHEDULE": "Cronograma",
+		"JJ": "Jenny & Jorge",
+		"OUR_DREAMS": "Nuestros sueños",
+		"GIFT_TABLE": "Mesa de regalos",
+		"BUTTON_LANG": "English"
+	},
+	"COUNTDOWN": {
+		"LABEL": "Cuenta regresiva",
+		"DAYS": "Días",
+		"HOURS": "Horas",
+		"MINUTES": "Minutos",
+		"SECONDS": "Segundos"
+	},
+	"WELCOME": {
+		"DATE": "07.Oct.23",
+		"OUR_WEDDING": "Nuestra Boda"
+	},
+	"PASSES": {
+		"WE_MARRIED": "¡Nos casamos!",
+		"NO_KIDS": "No niños"
+	},
+	"SCHEDULE": {
+		"LABEL": "Cronograma"
+	},
+	"GIFT_TABLE": {
+		"MESSAGE": "Nuestra hogar está completo, pero si deseas hacernos un obsequio, aquí puedes hacerlo:"
+	}
+}

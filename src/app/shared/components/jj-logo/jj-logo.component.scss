@@ -1,0 +1,25 @@
+:host {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: calc(100% - 6rem);
+	position: relative;
+	filter: drop-shadow(0 0.5rem 1rem rgb(0 0 0 / 64%));
+	border-radius: 50%;
+}
+
+.svg {
+	position: absolute;
+	z-index: 1;
+	transform: scale(0.35);
+	top: -1rem;
+	left: -4rem;
+	filter: drop-shadow(0 0 1rem rgb(0 0 0 / 64%));
+}
+
+.img {
+	display: block;
+	width: 100%;
+	position: relative;
+	border-radius: 50%;
+}
