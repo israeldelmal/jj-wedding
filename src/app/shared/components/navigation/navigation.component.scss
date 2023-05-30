@@ -9,6 +9,7 @@
 	transition: all 0.16s ease-out;
 	border-radius: 50%;
 	background: transparent;
+	z-index: 10;
 
 	&.active {
 		display: inline-flex;

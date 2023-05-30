@@ -24,7 +24,13 @@
 		"NO_KIDS": "No niños"
 	},
 	"SCHEDULE": {
-		"LABEL": "Cronograma"
+		"LABEL": "Cronograma",
+		"RELIGIOUS_CEREMONY": "Ceremonia Religiosa",
+		"RECEPTION": "Recepción",
+		"COCKTAIL": "Cocktail",
+		"BRIDE_AND_GROOM_ENTRANCE": "Entrada de los novios",
+		"FEAST": "Banquete",
+		"PARTY_STARTS": "¡Qué empiece la fiesta!"
 	},
 	"GIFT_TABLE": {
 		"MESSAGE": "Nuestra hogar está completo, pero si deseas hacernos un obsequio, aquí puedes hacerlo:"

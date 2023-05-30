@@ -24,7 +24,13 @@
 		"NO_KIDS": "No kids"
 	},
 	"SCHEDULE": {
-		"LABEL": "Schedule"
+		"LABEL": "Schedule",
+		"RELIGIOUS_CEREMONY": "Religious Ceremony",
+		"RECEPTION": "Reception",
+		"COCKTAIL": "Cocktail",
+		"BRIDE_AND_GROOM_ENTRANCE": "Bride and Groom Entrance",
+		"FEAST": "Feast",
+		"PARTY_STARTS": "Party Starts"
 	},
 	"GIFT_TABLE": {
 		"MESSAGE": "Our home is complete, but if you want to give us a gift, you can do it here:"

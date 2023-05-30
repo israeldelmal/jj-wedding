@@ -12,3 +12,15 @@ export interface Guest {
 export interface GuestList {
 	[key: string]: Guest
 }
+
+export interface Schedule {
+	label: string
+	time: string
+	delay: string
+	maps?: {
+		google: string
+		waze: string
+	}
+}
+
+export type ScheduleList = Schedule[]
