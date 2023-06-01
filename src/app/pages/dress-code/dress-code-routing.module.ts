@@ -1,16 +1,17 @@
 import { NgModule } from '@angular/core'
 import { RouterModule } from '@angular/router'
-import { OurDreamsComponent } from './our-dreams.component'
+
+import { DressCodeComponent } from './dress-code.component'
 
 @NgModule({
 	imports: [
 		RouterModule.forChild([
 			{
 				path: '',
-				component: OurDreamsComponent,
+				component: DressCodeComponent,
 			},
 		]),
 	],
 	exports: [RouterModule],
 })
-export class OurDreamsRoutingModule {}
+export class DressCodeRoutingModule {}

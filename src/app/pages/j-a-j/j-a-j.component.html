@@ -1,41 +1,11 @@
-<div>
-	<ng-template ngbSlide>
-		<div class="slide">
-			<div class="content">
-				<h6>Slide 1</h6>
-				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente culpa ducimus
-					saepe veritatis aliquid esse libero nisi dignissimos nulla voluptatum,
-					distinctio accusantium modi, molestiae aspernatur blanditiis consectetur, sunt
-					adipisci cumque?
-				</p>
-			</div>
-		</div>
-	</ng-template>
-	<ng-template ngbSlide>
-		<div class="slide">
-			<div class="content">
-				<h6>Slide 1</h6>
-				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente culpa ducimus
-					saepe veritatis aliquid esse libero nisi dignissimos nulla voluptatum,
-					distinctio accusantium modi, molestiae aspernatur blanditiis consectetur, sunt
-					adipisci cumque?
-				</p>
-			</div>
-		</div>
-	</ng-template>
-	<ng-template ngbSlide>
-		<div class="slide">
-			<div class="content">
-				<h6>Slide 1</h6>
-				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente culpa ducimus
-					saepe veritatis aliquid esse libero nisi dignissimos nulla voluptatum,
-					distinctio accusantium modi, molestiae aspernatur blanditiis consectetur, sunt
-					adipisci cumque?
-				</p>
-			</div>
-		</div>
-	</ng-template>
-</div>
+<ng-container *ngIf="slides$ | async as slides">
+	<div class="slide" *ngFor="let slide of slides">
+		<section>
+			<p class="cursive animate__animated animate__fadeInDown" *ngIf="slide?.message">
+				{{ slide.message }}
+			</p>
+			<small class="cursive" *ngIf="slide?.sub">{{ slide.sub }}</small>
+		</section>
+		<img [src]="slide.img" />
+	</div>
+</ng-container>

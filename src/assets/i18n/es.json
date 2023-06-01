@@ -6,6 +6,8 @@
 		"JJ": "Jenny & Jorge",
 		"OUR_DREAMS": "Nuestros sueños",
 		"GIFT_TABLE": "Mesa de regalos",
+		"DRESS_CODE": "Código de vestimenta",
+		"SOCIAL_MEDIA": "Redes sociales",
 		"BUTTON_LANG": "English"
 	},
 	"COUNTDOWN": {
@@ -34,5 +36,13 @@
 	},
 	"GIFT_TABLE": {
 		"MESSAGE": "Nuestra hogar está completo, pero si deseas hacernos un obsequio, aquí puedes hacerlo:"
+	},
+	"DRESS_CODE": {
+		"LABEL": "Código de vestimenta",
+		"MESSAGE": "Hay que llevar vestimenta de etiqueta: hombres corbata o moño, mujeres, vestido largo"
+	},
+	"SOCIAL_MEDIA": {
+		"MESSAGE": "Ayúdanos a documentar nuestra boda! Sube tus fotos y videos y etiquétanos con el hashtag",
+		"HASHTAG": "#Ms&MrValencia"
 	}
 }

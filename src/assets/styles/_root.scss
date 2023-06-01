@@ -18,3 +18,23 @@
 .cursive {
 	font-family: 'NovaQuinta', sans-serif;
 }
+
+.animate__delay-6s {
+	animation-delay: calc(var(--animate-delay) * 6);
+}
+
+.animate__delay-7s {
+	animation-delay: calc(var(--animate-delay) * 7);
+}
+
+.animate__delay-8s {
+	animation-delay: calc(var(--animate-delay) * 8);
+}
+
+.animate__delay-9s {
+	animation-delay: calc(var(--animate-delay) * 9);
+}
+
+.animate__delay-10s {
+	animation-delay: calc(var(--animate-delay) * 10);
+}

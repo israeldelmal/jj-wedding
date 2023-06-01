@@ -30,12 +30,16 @@ const routes: Routes = [
 				loadChildren: () => import('@pages/j-a-j').then((m) => m.JAJPage),
 			},
 			{
-				path: 'nuestros-suenos',
-				loadChildren: () => import('@pages/our-dreams').then((m) => m.OurDreamsPage),
-			},
-			{
 				path: 'mesa-de-regalos',
 				loadChildren: () => import('@pages/gift-table').then((m) => m.GiftTablePage),
+			},
+			{
+				path: 'codigo-de-vestimenta',
+				loadChildren: () => import('@pages/dress-code').then((m) => m.DressCodePage),
+			},
+			{
+				path: 'redes-sociales',
+				loadChildren: () => import('@pages/social-media').then((m) => m.SocialMediaPage),
 			},
 		],
 	},
@@ -47,7 +51,11 @@ const routes: Routes = [
 ]
 
 @NgModule({
-	imports: [RouterModule.forRoot(routes)],
+	imports: [
+		RouterModule.forRoot(routes, {
+			scrollPositionRestoration: 'enabled',
+		}),
+	],
 	exports: [RouterModule],
 })
 export class AppRoutingModule {}

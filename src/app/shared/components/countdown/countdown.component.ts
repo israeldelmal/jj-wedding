@@ -1,7 +1,9 @@
 import { CommonModule } from '@angular/common'
 import { Component } from '@angular/core'
-import { TranslateModule } from '@ngx-translate/core'
+
 import { map, timer } from 'rxjs'
+
+import { TranslateModule } from '@ngx-translate/core'
 
 @Component({
 	selector: 'countdown',
@@ -33,7 +35,7 @@ import { map, timer } from 'rxjs'
 export class CountdownComponent {
 	readonly countDown$ = timer(0, 1000).pipe(
 		map(() => {
-			const finaleDate = new Date('2023-10-07T21:00:00.000Z').getTime()
+			const finaleDate = new Date('2023-10-07T16:00:00.000Z').getTime()
 			const currentDate = new Date().getTime()
 			const distance = finaleDate - currentDate
 			const days = Math.floor(distance / (1000 * 60 * 60 * 24))

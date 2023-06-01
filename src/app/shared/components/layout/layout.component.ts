@@ -27,7 +27,9 @@ export class LayoutComponent implements OnInit {
 	get isLightStyle(): boolean {
 		const { guestId } = this.globalState.guest.value
 
-		return this.currentPath === `/${guestId}`
+		return (
+			this.currentPath === `/${guestId}` || this.currentPath === `/${guestId}/jenny-y-jorge`
+		)
 	}
 
 	ngOnInit(): void {

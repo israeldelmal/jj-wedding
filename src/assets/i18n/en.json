@@ -6,6 +6,8 @@
 		"JJ": "Jenny & Jorge",
 		"OUR_DREAMS": "Our dreams",
 		"GIFT_TABLE": "Gift table",
+		"DRESS_CODE": "Dress code",
+		"SOCIAL_MEDIA": "Social media",
 		"BUTTON_LANG": "Español"
 	},
 	"COUNTDOWN": {
@@ -34,5 +36,13 @@
 	},
 	"GIFT_TABLE": {
 		"MESSAGE": "Our home is complete, but if you want to give us a gift, you can do it here:"
+	},
+	"DRESS_CODE": {
+		"LABEL": "Dress code",
+		"MESSAGE": "Dress code must be worn: men tie or bow tie, women long dress"
+	},
+	"SOCIAL_MEDIA": {
+		"MESSAGE": "Help us document our wedding! Upload your photos and videos and tag us with the hashtag",
+		"HASHTAG": "#Ms&MrValencia"
 	}
 }

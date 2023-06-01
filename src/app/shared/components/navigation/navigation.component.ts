@@ -49,14 +49,19 @@ export class NavigationComponent implements OnInit {
 				delay: 'animate__delay-3s',
 			},
 			{
-				label: 'MENU.OUR_DREAMS',
-				path: `/${guestId}/nuestros-suenos`,
-				delay: 'animate__delay-4s',
-			},
-			{
 				label: 'MENU.GIFT_TABLE',
 				path: `/${guestId}/mesa-de-regalos`,
 				delay: 'animate__delay-5s',
+			},
+			{
+				label: 'MENU.DRESS_CODE',
+				path: `/${guestId}/codigo-de-vestimenta`,
+				delay: 'animate__delay-6s',
+			},
+			{
+				label: 'MENU.SOCIAL_MEDIA',
+				path: `/${guestId}/redes-sociales`,
+				delay: 'animate__delay-7s',
 			},
 		])
 	)
