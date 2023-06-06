@@ -3,6 +3,7 @@
 		"WELCOME": "Welcome",
 		"PASSES": "Passes",
 		"SCHEDULE": "Schedule",
+		"LODGING": "Lodging",
 		"JJ": "Jenny & Jorge",
 		"OUR_DREAMS": "Our dreams",
 		"GIFT_TABLE": "Gift table",
@@ -33,6 +34,9 @@
 		"BRIDE_AND_GROOM_ENTRANCE": "Bride and Groom Entrance",
 		"FEAST": "Feast",
 		"PARTY_STARTS": "Party Starts"
+	},
+	"LODGING": {
+		"LABEL": "Lodging"
 	},
 	"GIFT_TABLE": {
 		"MESSAGE": "Our home is complete, but if you want to give us a gift, you can do it here:"

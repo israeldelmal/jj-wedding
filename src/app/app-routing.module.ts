@@ -26,6 +26,10 @@ const routes: Routes = [
 				loadChildren: () => import('@pages/schedule').then((m) => m.SchedulePage),
 			},
 			{
+				path: 'hospedaje',
+				loadChildren: () => import('@pages/lodging').then((m) => m.LodgingPage),
+			},
+			{
 				path: 'jenny-y-jorge',
 				loadChildren: () => import('@pages/j-a-j').then((m) => m.JAJPage),
 			},

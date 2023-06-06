@@ -20,6 +20,8 @@ export interface Schedule {
 	maps?: {
 		google: string
 		waze: string
+		buildingName: string
+		image: string
 	}
 }
 

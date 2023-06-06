@@ -3,6 +3,7 @@
 		"WELCOME": "Bienvenido",
 		"PASSES": "Pases",
 		"SCHEDULE": "Cronograma",
+		"LODGING": "Hospedaje",
 		"JJ": "Jenny & Jorge",
 		"OUR_DREAMS": "Nuestros sueños",
 		"GIFT_TABLE": "Mesa de regalos",
@@ -33,6 +34,9 @@
 		"BRIDE_AND_GROOM_ENTRANCE": "Entrada de los novios",
 		"FEAST": "Banquete",
 		"PARTY_STARTS": "¡Qué empiece la fiesta!"
+	},
+	"LODGING": {
+		"LABEL": "Hospedaje"
 	},
 	"GIFT_TABLE": {
 		"MESSAGE": "Nuestra hogar está completo, pero si deseas hacernos un obsequio, aquí puedes hacerlo:"

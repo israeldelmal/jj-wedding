@@ -44,9 +44,14 @@ export class NavigationComponent implements OnInit {
 				delay: 'animate__delay-2s',
 			},
 			{
+				label: 'MENU.LODGING',
+				path: `/${guestId}/hospedaje`,
+				delay: 'animate__delay-3s',
+			},
+			{
 				label: 'MENU.JJ',
 				path: `/${guestId}/jenny-y-jorge`,
-				delay: 'animate__delay-3s',
+				delay: 'animate__delay-4s',
 			},
 			{
 				label: 'MENU.GIFT_TABLE',
