@@ -8,7 +8,7 @@
 		<span [style.margin-bottom.rem]="schedule?.maps ? 0.35 : 0">{{ schedule.time }}</span>
 		<div class="maps" *ngIf="schedule?.maps">
 			<div class="anchores-container">
-				<a [href]="schedule.maps.google" target="_blank" class="google">
+				<button type="button" (click)="openApp(schedule.maps.google)" class="google">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						width="32"
@@ -37,7 +37,7 @@
 						/>
 					</svg>
 					<span>Google</span>
-				</a>
+				</button>
 				<a [href]="schedule.maps.waze" target="_blank" class="waze">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"

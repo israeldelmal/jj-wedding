@@ -51,4 +51,8 @@ export class ScheduleComponent {
 			delay: 'animate__delay-5s',
 		},
 	]
+
+	openApp(url: string): void {
+		window.location.href = url
+	}
 }
