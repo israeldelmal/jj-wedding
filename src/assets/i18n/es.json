@@ -18,6 +18,9 @@
 		"MINUTES": "Minutos",
 		"SECONDS": "Segundos"
 	},
+	"BUTTONS": {
+		"CLOSE": "Cerrar"
+	},
 	"WELCOME": {
 		"DATE": "07.Oct.23",
 		"OUR_WEDDING": "Nuestra Boda"
@@ -39,7 +42,12 @@
 		"LABEL": "Hospedaje"
 	},
 	"GIFT_TABLE": {
-		"MESSAGE": "Nuestra hogar está completo, pero si deseas hacernos un obsequio, aquí puedes hacerlo:"
+		"MESSAGE": "Nuestra hogar está completo, pero si deseas hacernos un obsequio, aquí puedes hacerlo:",
+		"DIALOG": {
+			"LABEL": "¡Gracias!",
+			"CLIPBOARD": "Se copió la CLABE de {{value}} a tu portapapeles",
+			"MESSAGE": "¡Gracias por tu contribución a nuestro hogar!"
+		}
 	},
 	"DRESS_CODE": {
 		"LABEL": "Código de vestimenta",
