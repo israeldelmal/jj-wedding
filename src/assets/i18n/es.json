@@ -36,7 +36,8 @@
 		"COCKTAIL": "Cocktail",
 		"BRIDE_AND_GROOM_ENTRANCE": "Entrada de los novios",
 		"FEAST": "Banquete",
-		"PARTY_STARTS": "¡Qué empiece la fiesta!"
+		"PARTY_STARTS": "¡Qué empiece la fiesta!",
+		"PARKING_OPTIONS": "Estacionamientos"
 	},
 	"LODGING": {
 		"LABEL": "Hospedaje"

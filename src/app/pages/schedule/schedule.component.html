@@ -8,7 +8,13 @@
 		<span [style.margin-bottom.rem]="schedule?.maps ? 0.35 : 0">{{ schedule.time }}</span>
 		<div class="maps" *ngIf="schedule?.maps">
 			<div class="anchores-container">
-				<a [href]="schedule.maps.google" target="_blank" class="google">
+				<button
+					type="button"
+					class="anchore google"
+					matRipple
+					[matRippleColor]="'rgb(0 0 0 / 16%)'"
+					(click)="onOpenDialogMap(schedule.maps.isChurch, true)"
+				>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						width="32"
@@ -37,8 +43,14 @@
 						/>
 					</svg>
 					<span>Google</span>
-				</a>
-				<a [href]="schedule.maps.waze" target="_blank" class="waze">
+				</button>
+				<button
+					type="button"
+					class="anchore waze"
+					matRipple
+					[matRippleColor]="'rgb(255 255 255 / 16%)'"
+					(click)="onOpenDialogMap(schedule.maps.isChurch, false)"
+				>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						width="32"
@@ -50,13 +62,21 @@
 						/>
 					</svg>
 					<span>Waze</span>
-				</a>
+				</button>
 			</div>
 			<figure>
 				<img [src]="schedule.maps.image" [alt]="schedule.maps.buildingName" />
 				<figcaption>{{ schedule.maps.buildingName }}</figcaption>
+				<button
+					*ngIf="schedule.maps.hasParkings"
+					(click)="onOpenParkingMapsDialog(true)"
+					class="parkings-button"
+					matRipple
+					[matRippleColor]="'rgb(0 0 0 / 16%)'"
+				>
+					{{ 'SCHEDULE.PARKING_OPTIONS' | translate }}
+				</button>
 			</figure>
 		</div>
 	</li>
-	<span class="center-line animate__animated animate__fadeInDown animate__delay-6s"></span>
 </ul>

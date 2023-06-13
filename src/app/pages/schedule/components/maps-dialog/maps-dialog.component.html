@@ -1,0 +1,40 @@
+<h1 mat-dialog-title>{{ headlining }}</h1>
+<section mat-dialog-content>
+	<ng-container *ngIf="data.isGoogle && data.isChurch">
+		<iframe
+			src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3734.9251598944466!2d-100.3949025!3d20.5911137!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d35b2aecec2417%3A0x5934cf87922b8a1d!2sParroquia%20del%20Sagrado%20Coraz%C3%B3n%20de%20Jes%C3%BAs%20%22Templo%20de%20Santa%20Clara%22!5e0!3m2!1ses-419!2smx!4v1686619959056!5m2!1ses-419!2smx"
+			height="450"
+			style="border: 0"
+			allowfullscreen=""
+			loading="lazy"
+			referrerpolicy="no-referrer-when-downgrade"
+		></iframe>
+	</ng-container>
+	<ng-container *ngIf="!data.isGoogle && data.isChurch">
+		<iframe
+			height="450"
+			src="https://embed.waze.com/iframe?zoom=16&lat=20.592031&lon=-100.394517&ct=livemap"
+			allowfullscreen
+		></iframe>
+	</ng-container>
+	<ng-container *ngIf="data.isGoogle && !data.isChurch">
+		<iframe
+			src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3737.032163609394!2d-100.42142262395437!3d20.50490770556333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d34541544ff985%3A0xd59bfa7d07da180a!2sSal%C3%B3n%20del%20Lago%20(Hacienda%20San%20Antonio%20del%20Batt%C3%A1n)!5e0!3m2!1ses-419!2smx!4v1686621101854!5m2!1ses-419!2smx"
+			height="450"
+			style="border: 0"
+			allowfullscreen=""
+			loading="lazy"
+			referrerpolicy="no-referrer-when-downgrade"
+		></iframe>
+	</ng-container>
+	<ng-container *ngIf="!data.isGoogle && !data.isChurch">
+		<iframe
+			src="https://embed.waze.com/iframe?zoom=16&lat=20.504903&lon=-100.418848&ct=livemap"
+			height="450"
+			allowfullscreen
+		></iframe>
+	</ng-container>
+</section>
+<footer mat-dialog-actions align="end">
+	<button mat-flat-button mat-dialog-close>{{ 'BUTTONS.CLOSE' | translate }}</button>
+</footer>

@@ -15,6 +15,10 @@ export class GiftTableComponent {
 	onOpenDialog(bank: 'BBVA' | 'Santander'): void {
 		const data = bank
 
-		this.dialog.open(GiftTableDialogComponent, { data, autoFocus: false })
+		this.dialog.open(GiftTableDialogComponent, {
+			data,
+			autoFocus: false,
+			maxWidth: 'calc(100vw - 2rem)',
+		})
 	}
 }

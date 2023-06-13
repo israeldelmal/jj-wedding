@@ -18,8 +18,8 @@ export interface Schedule {
 	time: string
 	delay: string
 	maps?: {
-		google: string
-		waze: string
+		hasParkings: boolean
+		isChurch: boolean
 		buildingName: string
 		image: string
 	}
