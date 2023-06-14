@@ -10,12 +10,14 @@ import { Component } from '@angular/core'
 	styles: [
 		`
 			:host {
-				display: inline-flex;
+				display: flex;
 				align-items: center;
 				justify-content: center;
 				flex-direction: column;
-				width: calc(100% - 4rem);
+				height: calc(100vh - 4rem);
+				width: 100%;
 				gap: 2rem 0;
+				padding: 0 1rem;
 			}
 
 			p {

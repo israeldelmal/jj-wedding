@@ -20,8 +20,10 @@ import { Component } from '@angular/core'
 				align-items: center;
 				justify-content: center;
 				flex-direction: column;
-				width: calc(100% - 4rem);
+				width: 100%;
+				height: calc(100vh - 4rem);
 				gap: 2rem 0;
+				padding: 0 1rem;
 			}
 
 			* {

@@ -23,6 +23,7 @@ export class LayoutComponent implements OnInit {
 	])
 
 	currentPath = this.router.url
+	toggle = false
 
 	get isLightStyle(): boolean {
 		const { guestId } = this.globalState.guest.value
@@ -37,6 +38,7 @@ export class LayoutComponent implements OnInit {
 			.pipe(filter((event) => event instanceof NavigationEnd))
 			.subscribe(({ urlAfterRedirects }: NavigationEnd) => {
 				this.currentPath = urlAfterRedirects
+				this.toggle = false
 			})
 
 		this.activatedRoute.params.subscribe(({ guest: guestId }) => {
@@ -51,5 +53,9 @@ export class LayoutComponent implements OnInit {
 				this.router.navigate(['/sin-invitacion'])
 			}
 		})
+	}
+
+	onToggle(): void {
+		this.toggle = !this.toggle
 	}
 }

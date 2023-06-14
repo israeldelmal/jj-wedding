@@ -1,4 +1,4 @@
-:host {
+/*:host {
 	--animate-delay: 80ms;
 
 	display: inline-block;
@@ -75,7 +75,7 @@ button {
 			}
 		}
 	}
-}
+} 
 
 nav {
 	display: flex;
@@ -129,4 +129,39 @@ nav {
 	font-size: 0.5rem;
 	font-weight: bold;
 	text-transform: uppercase;
+}*/
+
+:host {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	gap: 0.5rem 0;
+}
+
+a {
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 1.5rem;
+	color: rgb(0 0 0 / 32%);
+	text-align: center;
+
+	&.ornamented {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		gap: 0 0.5rem;
+		width: auto;
+		color: hsl(0, 0%, 0%);
+
+		svg {
+			&:first-child {
+				transform: rotate(180deg);
+			}
+
+			&:last-child {
+				transform: rotateX(180deg);
+			}
+		}
+	}
 }
