@@ -52,7 +52,9 @@
 	},
 	"DRESS_CODE": {
 		"LABEL": "Dress code",
-		"MESSAGE": "Dress code must be worn: men tie or bow tie, women long dress"
+		"MESSAGE": "Dress code must be worn: men tie or bow tie, women long dress",
+		"SMOKING": "Smoking",
+		"LONG_DRESS": "Long dress"
 	},
 	"SOCIAL_MEDIA": {
 		"MESSAGE": "Help us document our wedding! Upload your photos and videos and tag us with the hashtag",

@@ -6,12 +6,15 @@ import { Component } from '@angular/core'
 			{{ 'DRESS_CODE.LABEL' | translate }}
 		</h1>
 		<div class="animate__animated animate__fadeInDown animate__delay-1s">
-			<img src="assets/images/man.webp" alt="Hombre" />
-			<img src="assets/images/woman.webp" alt="Mujer" />
+			<figure>
+				<img src="assets/images/man.webp" alt="Hombre" />
+				<figcaption>{{ 'DRESS_CODE.SMOKING' | translate }}</figcaption>
+			</figure>
+			<figure>
+				<img src="assets/images/woman.webp" alt="Mujer" />
+				<figcaption>{{ 'DRESS_CODE.LONG_DRESS' | translate }}</figcaption>
+			</figure>
 		</div>
-		<p class="cursive animate__animated animate__fadeInUp animate__delay-2s">
-			{{ 'DRESS_CODE.MESSAGE' | translate }}
-		</p>
 	`,
 	styles: [
 		`
@@ -45,6 +48,10 @@ import { Component } from '@angular/core'
 					width: auto;
 					height: 16rem;
 				}
+			}
+
+			figcaption {
+				margin-top: 1rem;
 			}
 
 			p {
