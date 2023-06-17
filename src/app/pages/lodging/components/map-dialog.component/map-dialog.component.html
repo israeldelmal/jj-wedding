@@ -1,0 +1,35 @@
+<h1 mat-dialog-title>{{ headlining }}</h1>
+<section mat-dialog-content>
+	<ng-container *ngIf="data === hotelId.HotelRealDeMinasTradicional">
+		<iframe
+			src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3735.3828779176965!2d-100.406385!3d20.572416!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d3453b03420477%3A0x677d07db4512b9d4!2sHotel%20Real%20de%20Minas%20Tradicional!5e0!3m2!1ses-419!2smx!4v1687040851889!5m2!1ses-419!2smx"
+			style="border: 0"
+			allowfullscreen=""
+			loading="lazy"
+			referrerpolicy="no-referrer-when-downgrade"
+		></iframe>
+	</ng-container>
+	<ng-container *ngIf="data === hotelId.HotelCriol">
+		<iframe
+			src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14939.377280786664!2d-100.3885211!3d20.5944143!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d35b2c0449b091%3A0xdbaf9a92ae1c8395!2sHotel%20Criol!5e0!3m2!1ses-419!2smx!4v1687041019760!5m2!1ses-419!2smx"
+			style="border: 0"
+			allowfullscreen=""
+			loading="lazy"
+			referrerpolicy="no-referrer-when-downgrade"
+		></iframe>
+	</ng-container>
+	<ng-container *ngIf="data === hotelId.HotssonHotel">
+		<iframe
+			src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3735.4985926195136!2d-100.35834229999999!3d20.5676865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d344a2805a249d%3A0xf6a208af18efe775!2sBlvd.%20Bernardo%20Quintana%208300%2C%20Centro%20Sur%2C%2076090%20Santiago%20de%20Quer%C3%A9taro%2C%20Qro.!5e0!3m2!1ses-419!2smx!4v1687041080494!5m2!1ses-419!2smx"
+			style="border: 0"
+			allowfullscreen=""
+			loading="lazy"
+			referrerpolicy="no-referrer-when-downgrade"
+		></iframe>
+	</ng-container>
+</section>
+<footer mat-dialog-actions align="end">
+	<button mat-button mat-dialog-close>
+		{{ 'BUTTONS.CLOSE' | translate }}
+	</button>
+</footer>

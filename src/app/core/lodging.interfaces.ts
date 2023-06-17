@@ -1,11 +1,17 @@
-export const enum HotelId {
+export enum HotelId {
 	HotelRealDeMinasTradicional = 1,
 	HotelCriol = 2,
 	HotssonHotel = 3,
 }
 
+export const enum HotelName {
+	HotelRealDeMinasTradicional = 'Hotel Real de Minas Tradicional',
+	HotelCriol = 'Hotel Criol',
+	HotssonHotel = 'Hotsson Hotel',
+}
+
 export interface Hotel {
-	hotelid: HotelId
+	hotelId: HotelId
 	name: string
 	reservationCode: string
 	image: string

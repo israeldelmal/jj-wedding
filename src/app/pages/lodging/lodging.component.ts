@@ -1,14 +1,18 @@
-import { Component } from '@angular/core'
+import { Component, inject } from '@angular/core'
+import { MatDialog } from '@angular/material/dialog'
 import { HotelId, Hotels } from '@core/lodging.interfaces'
+import { MapDialogComponent } from './components/map-dialog.component/map-dialog.component'
 
 @Component({
 	templateUrl: './lodging.component.html',
 	styleUrls: ['./lodging.component.scss'],
 })
 export class LodgingComponent {
+	private readonly dialog = inject(MatDialog)
+
 	readonly hotels: Hotels = [
 		{
-			hotelid: HotelId.HotelRealDeMinasTradicional,
+			hotelId: HotelId.HotelRealDeMinasTradicional,
 			name: 'Hotel Real de Minas Tradicional',
 			reservationCode: 'BODA JORGE & JENNIFER',
 			image: 'assets/images/hotels/hotel-real-de-minas-tradicional-hotel.webp',
@@ -18,7 +22,7 @@ export class LodgingComponent {
 			delay: '',
 		},
 		{
-			hotelid: HotelId.HotelCriol,
+			hotelId: HotelId.HotelCriol,
 			name: 'Hotel Criol',
 			reservationCode: 'BODA JORGE & JENNIFER',
 			image: 'assets/images/hotels/hotel-criol.webp',
@@ -28,7 +32,7 @@ export class LodgingComponent {
 			delay: 'animate__delay-1s',
 		},
 		{
-			hotelid: HotelId.HotssonHotel,
+			hotelId: HotelId.HotssonHotel,
 			name: 'Hotsson Hotel',
 			reservationCode: 'BODA JORGE & JENNIFER',
 			image: 'assets/images/hotels/hotsson-hotel.webp',
@@ -39,4 +43,15 @@ export class LodgingComponent {
 		},
 	]
 	readonly ripple = 'rgb(0 0 0 / 8%)'
+
+	onOpenDialog(hotelId: HotelId): void {
+		const data = hotelId
+
+		this.dialog.open(MapDialogComponent, {
+			width: '100%',
+			maxWidth: 'calc(100vw - 2rem)',
+			autoFocus: false,
+			data,
+		})
+	}
 }
