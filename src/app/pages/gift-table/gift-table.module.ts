@@ -1,6 +1,7 @@
 import { CommonModule } from '@angular/common'
 import { NgModule } from '@angular/core'
 import { MatDialogModule } from '@angular/material/dialog'
+import { ClipboardModule } from '@angular/cdk/clipboard'
 
 import { TranslateModule } from '@ngx-translate/core'
 
@@ -14,6 +15,7 @@ import { GiftTableDialog } from './components/gift-table-dialog'
 		CommonModule,
 		GiftTableRoutingModule,
 		MatDialogModule,
+		ClipboardModule,
 		TranslateModule,
 		GiftTableDialog,
 	],

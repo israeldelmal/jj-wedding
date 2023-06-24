@@ -27,7 +27,7 @@
 	},
 	"PASSES": {
 		"WE_MARRIED": "¡Nos casamos!",
-		"NO_KIDS": "No niños"
+		"NO_KIDS": "Debido al espacio de nuestra locación nupcial, tenemos cupos reservados solo para adultos y no contaremos con ningún programa ni área especial para los niños. Agradecemos su comprensión de que en nuestra recepción solo se permitirá el ingreso a adultos."
 	},
 	"SCHEDULE": {
 		"LABEL": "Cronograma",
@@ -43,7 +43,11 @@
 		"LABEL": "Hospedaje"
 	},
 	"GIFT_TABLE": {
-		"MESSAGE": "Nuestra hogar está completo, pero si deseas hacernos un obsequio, aquí puedes hacerlo:",
+		"MESSAGE": "Nuestra hogar está completo, pero si deseas hacernos un obsequio ¡Suma kilómetros a nuestra luna de miel!",
+		"ENVELOPE_RAIN": {
+			"LABEL": "Lluvia de sobres",
+			"MESSAGE": "O si prefieres un obsequio en efectivo podrás hacerlo en nuestra mesa de lluvia de sobres."
+		},
 		"DIALOG": {
 			"LABEL": "¡Gracias!",
 			"CLIPBOARD": "Se copió la CLABE de {{value}} a tu portapapeles",
@@ -58,6 +62,7 @@
 	},
 	"SOCIAL_MEDIA": {
 		"MESSAGE": "Ayúdanos a documentar nuestra boda! Sube tus fotos y videos y etiquétanos con el hashtag",
-		"HASHTAG": "#Ms&MrValencia"
+		"HASHTAG": "#Ms&MrValencia",
+		"CLIPBOARD": "Se copió el hashtag a tu portapapeles"
 	}
 }

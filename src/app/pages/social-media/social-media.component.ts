@@ -1,36 +1,41 @@
-import { Component } from '@angular/core'
+import { Component, inject } from '@angular/core'
+import { MatSnackBar } from '@angular/material/snack-bar'
+
+import { TranslateService } from '@ngx-translate/core'
 
 @Component({
-	template: `
-		<p class="cursive animate__animated animate__fadeInDown">
-			{{ 'SOCIAL_MEDIA.MESSAGE' | translate }}
-		</p>
-		<span class="animate__animated animate__fadeInUp animate__delay-1s">#Ms&MrValencia</span>
-	`,
-	styles: [
-		`
-			:host {
-				display: flex;
-				align-items: center;
-				justify-content: center;
-				flex-direction: column;
-				height: calc(100vh - 4rem);
-				width: 100%;
-				gap: 2rem 0;
-				padding: 0 1rem;
-			}
-
-			p {
-				text-align: center;
-				font-size: 1.75rem;
-			}
-
-			span {
-				display: inline-block;
-				font-size: 2rem;
-				font-weight: bold;
-			}
-		`,
-	],
+	templateUrl: './social-media.component.html',
+	styleUrls: ['./social-media.component.scss'],
 })
-export class SocialMediaComponent {}
+export class SocialMediaComponent {
+	private readonly snackBar = inject(MatSnackBar)
+	private readonly translateService = inject(TranslateService)
+
+	readonly hashtag = '#Ms&MrValencia'
+	readonly rippleColor = 'rgb(0 0 0 / 8%)'
+	readonly socialMedia = [
+		{
+			profile: 'Jennifer',
+			image: 'assets/images/profile-jenny.webp',
+			instagram: 'https://instagram.com/jenn_peloza',
+			facebook: 'https://www.facebook.com/pik0s',
+			delay: 'animate__delay-2s',
+		},
+		{
+			profile: 'Jorge',
+			image: 'assets/images/profile-jorge.webp',
+			instagram: 'https://instagram.com/jorch_valencia',
+			facebook: 'https://www.facebook.com/Jorge.Alberto.Valencia.Camacho',
+			delay: 'animate__delay-3s',
+		},
+	]
+
+	copyToClipboard() {
+		this.translateService.stream('SOCIAL_MEDIA.CLIPBOARD').subscribe((message: string) => {
+			this.snackBar.open(message, 'Ok!', {
+				panelClass: 'custom-snackbar',
+				duration: 5000,
+			})
+		})
+	}
+}

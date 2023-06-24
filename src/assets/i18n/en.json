@@ -27,7 +27,7 @@
 	},
 	"PASSES": {
 		"WE_MARRIED": "We married!",
-		"NO_KIDS": "No kids"
+		"NO_KIDS": "Due to the space of our wedding venue, we have places reserved for adults only and we will not have any program or special area for children. We appreciate your understanding that only adults will be allowed in our reception."
 	},
 	"SCHEDULE": {
 		"LABEL": "Schedule",
@@ -43,7 +43,11 @@
 		"LABEL": "Lodging"
 	},
 	"GIFT_TABLE": {
-		"MESSAGE": "Our home is complete, but if you want to give us a gift, you can do it here:",
+		"MESSAGE": "Our home is complete, but if you want to give us a gift, add miles to our honeymoon!",
+		"ENVELOPE_RAIN": {
+			"LABEL": "Envelope rain",
+			"MESSAGE": "Or if you prefer a cash gift, you can do so at our envelope rain table."
+		},
 		"DIALOG": {
 			"LABEL": "Thanks!",
 			"CLIPBOARD": "The CLABE of {{value}} was copied to your clipboard",
@@ -58,6 +62,7 @@
 	},
 	"SOCIAL_MEDIA": {
 		"MESSAGE": "Help us document our wedding! Upload your photos and videos and tag us with the hashtag",
-		"HASHTAG": "#Ms&MrValencia"
+		"HASHTAG": "#Ms&MrValencia",
+		"CLIPBOARD": "The hashtag was copied to your clipboard"
 	}
 }

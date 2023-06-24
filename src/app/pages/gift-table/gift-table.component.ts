@@ -10,6 +10,10 @@ import { GiftTableDialogComponent } from './components/gift-table-dialog/gift-ta
 export class GiftTableComponent {
 	private readonly dialog = inject(MatDialog)
 
+	readonly accounts = {
+		bbva: '4152313536243897',
+		santander: '014680200093976195',
+	}
 	readonly iconSize = 48
 
 	onOpenDialog(bank: 'BBVA' | 'Santander'): void {

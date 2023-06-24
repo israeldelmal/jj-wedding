@@ -1,4 +1,4 @@
-<p class="cursive animate__animated animate__fadeInDown">
+<p class="animate__animated animate__fadeInDown">
 	{{ 'GIFT_TABLE.MESSAGE' | translate }}
 </p>
 <section>
@@ -6,6 +6,7 @@
 		type="button"
 		class="anchor santander animate__animated animate__fadeInDown animate__delay-1s"
 		(click)="onOpenDialog('Santander')"
+		[cdkCopyToClipboard]="accounts.santander"
 	>
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
@@ -23,6 +24,7 @@
 		type="button"
 		class="anchor bbva animate__animated animate__fadeInDown animate__delay-2s"
 		(click)="onOpenDialog('BBVA')"
+		[cdkCopyToClipboard]="accounts.bbva"
 	>
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
@@ -98,4 +100,31 @@
 		</svg>
 		<span>PayPal</span>
 	</a>
+</section>
+<span class="separator animate__animated animate__fadeInDown animate__delay-5s"></span>
+<section class="envelop-rain">
+	<svg
+		xmlns="http://www.w3.org/2000/svg"
+		width="68"
+		height="68"
+		viewBox="0 0 24 24"
+		stroke-width="1"
+		stroke="currentColor"
+		fill="none"
+		stroke-linecap="round"
+		stroke-linejoin="round"
+		class="animate__animated animate__fadeInDown animate__delay-6s"
+	>
+		<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+		<path
+			d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z"
+		></path>
+		<path d="M3 7l9 6l9 -6"></path>
+	</svg>
+	<h2 class="animate__animated animate__fadeInDown animate__delay-7s">
+		{{ 'GIFT_TABLE.ENVELOPE_RAIN.LABEL' | translate }}
+	</h2>
+	<p class="animate__animated animate__fadeInDown animate__delay-8s">
+		{{ 'GIFT_TABLE.ENVELOPE_RAIN.MESSAGE' | translate }}
+	</p>
 </section>
