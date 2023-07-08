@@ -75,7 +75,7 @@ export class GiftTableDialogComponent {
 	readonly accounts = {
 		BBVA: {
 			clabe: '4152313536243897',
-			account: '0000 0000 0000 0000',
+			account: '4152 3135 3624 3897',
 		},
 		Santander: {
 			clabe: '014680200093976195',
