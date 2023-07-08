@@ -5,6 +5,11 @@ import { GlobalState } from '@core/global.state'
 @Component({
 	template: `
 		<ng-container *ngIf="guest$ | async as guest">
+			<img
+				src="assets/images/passes-header.webp"
+				class="animate__animated animate__fadeInDown"
+				[alt]="'PASSES.WE_MARRIED' | translate"
+			/>
 			<h1 class="cursive animate__animated animate__fadeInDown">{{ guest.title }}</h1>
 			<strong class="animate__animated animate__fadeInUp animate__delay-1s">
 				{{ 'PASSES.WE_MARRIED' | translate }}

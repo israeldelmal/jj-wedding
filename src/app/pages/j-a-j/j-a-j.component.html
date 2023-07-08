@@ -1,11 +1,11 @@
-<ng-container *ngIf="slides$ | async as slides">
-	<div class="slide" *ngFor="let slide of slides">
-		<section>
-			<p class="cursive animate__animated animate__fadeInDown" *ngIf="slide?.message">
-				{{ slide.message }}
-			</p>
-			<small class="cursive" *ngIf="slide?.sub">{{ slide.sub }}</small>
-		</section>
-		<img [src]="slide.img" />
-	</div>
-</ng-container>
+<div class="slide" *ngFor="let image of images; first as first">
+	<section>
+		<p class="cursive animate__animated animate__fadeInDown" *ngIf="first">
+			{{ message }}
+		</p>
+		<small class="cursive animate__animated animate__fadeInDown" *ngIf="first">
+			- Heaven, Bryan Adams
+		</small>
+	</section>
+	<img [src]="image" />
+</div>

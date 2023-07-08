@@ -29,7 +29,10 @@ section {
 p {
 	text-align: center;
 	color: var(--white);
-	font-size: 1.5rem;
+	font-size: 1.1rem;
+	white-space: pre-line;
+	line-height: 0.75em;
+	text-shadow: 0 0 0.75rem var(--black);
 }
 
 small {
@@ -38,7 +41,6 @@ small {
 	width: 100%;
 	text-align: center;
 	font-size: 1.25rem;
-	text-decoration: underline;
 }
 
 img {

@@ -27,7 +27,7 @@
 	},
 	"PASSES": {
 		"WE_MARRIED": "¡Nos casamos!",
-		"NO_KIDS": "Debido al espacio de nuestra locación nupcial, tenemos cupos reservados solo para adultos y no contaremos con ningún programa ni área especial para los niños. Agradecemos su comprensión de que en nuestra recepción solo se permitirá el ingreso a adultos."
+		"NO_KIDS": "Por medidas de seguridad del lugar, hemos decidido que nuestro evento será sólo para adultos. Esperamos que esta decisión no impida que contemos con tu presencia."
 	},
 	"SCHEDULE": {
 		"LABEL": "Cronograma",
@@ -50,14 +50,15 @@
 		},
 		"DIALOG": {
 			"LABEL": "¡Gracias!",
-			"CLIPBOARD": "Se copió la CLABE de {{value}} a tu portapapeles",
-			"MESSAGE": "¡Gracias por tu contribución a nuestro hogar!"
+			"BANK_INFO": "Aquí tienes las opciones para {{ value }}.",
+			"MESSAGE": "¡Gracias por tu contribución a nuestro hogar!",
+			"SNACK_BAR_MESSAGE": "Se copió la información a tu portapapeles"
 		}
 	},
 	"DRESS_CODE": {
-		"LABEL": "Código de vestimenta",
+		"LABEL": "Etiqueta",
 		"MESSAGE": "Hay que llevar vestimenta de etiqueta: hombres corbata o moño, mujeres, vestido largo",
-		"SMOKING": "Smoking",
+		"SMOKING": "Traje con corbata o moño",
 		"LONG_DRESS": "Vestido largo"
 	},
 	"SOCIAL_MEDIA": {

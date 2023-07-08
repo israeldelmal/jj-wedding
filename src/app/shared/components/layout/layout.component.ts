@@ -3,7 +3,7 @@ import { ActivatedRoute, NavigationEnd, Router } from '@angular/router'
 
 import { combineLatest, filter } from 'rxjs'
 
-import { GUEST_LIST } from '@core/guest-list'
+import guestList from '@assets/guest-list.json'
 import { GlobalState } from '@core/global.state'
 
 @Component({
@@ -42,8 +42,8 @@ export class LayoutComponent implements OnInit {
 			})
 
 		this.activatedRoute.params.subscribe(({ guest: guestId }) => {
-			if (GUEST_LIST[guestId]) {
-				const guest = GUEST_LIST[guestId]
+			if (guestList[guestId]) {
+				const guest = guestList[guestId]
 
 				localStorage.setItem('guest', JSON.stringify(guest))
 				this.globalState.guest.next(guest)

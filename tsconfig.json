@@ -22,8 +22,11 @@
 		"paths": {
 			"@pages/*": ["app/pages/*"],
 			"@components/*": ["app/shared/components/*"],
-			"@core/*": ["app/core/*"]
-		}
+			"@core/*": ["app/core/*"],
+			"@assets/*": ["assets/*"]
+		},
+		"resolveJsonModule": true,
+		"allowSyntheticDefaultImports": true
 	},
 	"angularCompilerOptions": {
 		"enableI18nLegacyMessageIdFormat": false,

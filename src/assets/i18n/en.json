@@ -27,7 +27,7 @@
 	},
 	"PASSES": {
 		"WE_MARRIED": "We married!",
-		"NO_KIDS": "Due to the space of our wedding venue, we have places reserved for adults only and we will not have any program or special area for children. We appreciate your understanding that only adults will be allowed in our reception."
+		"NO_KIDS": "Due to security measures in place, we have decided that our event will be for adults only. We hope that this decision does not prevent us from having your presence."
 	},
 	"SCHEDULE": {
 		"LABEL": "Schedule",
@@ -50,14 +50,15 @@
 		},
 		"DIALOG": {
 			"LABEL": "Thanks!",
-			"CLIPBOARD": "The CLABE of {{value}} was copied to your clipboard",
-			"MESSAGE": "Thank you for your contribution to our home!"
+			"BANK_INFO": "Here are the options for {{ value }}.",
+			"MESSAGE": "Thank you for your contribution to our home!",
+			"SNACK_BAR_MESSAGE": "The information was copied to your clipboard"
 		}
 	},
 	"DRESS_CODE": {
-		"LABEL": "Dress code",
+		"LABEL": "Black Tie",
 		"MESSAGE": "Dress code must be worn: men tie or bow tie, women long dress",
-		"SMOKING": "Smoking",
+		"SMOKING": "Suit with tie or bow",
 		"LONG_DRESS": "Long dress"
 	},
 	"SOCIAL_MEDIA": {
