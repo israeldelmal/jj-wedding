@@ -20,7 +20,8 @@ export class ScheduleComponent {
 			maps: {
 				hasParkings: true,
 				isChurch: true,
-				buildingName: 'Parroquia del Sagrado Corazón de Jesús "Templo de Santa Clara"',
+				buildingName:
+					'Parroquia del Sagrado Corazón de Jesús "Templo de Santa Clara", Corregidora, Querétaro',
 				image: 'assets/images/church.webp',
 			},
 		},
@@ -31,7 +32,7 @@ export class ScheduleComponent {
 			maps: {
 				hasParkings: false,
 				isChurch: false,
-				buildingName: 'Salón del Lago, Hacienda San Antonio del Battán',
+				buildingName: 'Salón del Lago, Hacienda San Antonio del Battán, Querétaro',
 				image: 'assets/images/salon.webp',
 			},
 		},
