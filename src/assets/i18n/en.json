@@ -33,7 +33,7 @@
 		"LABEL": "Schedule",
 		"RELIGIOUS_CEREMONY": "Religious Ceremony",
 		"RECEPTION": "Reception",
-		"COCKTAIL": "Cocktail",
+		"COCKTAIL": "Welcome cocktail",
 		"BRIDE_AND_GROOM_ENTRANCE": "Bride and Groom Entrance",
 		"FEAST": "Feast",
 		"PARTY_STARTS": "Party Starts",
@@ -46,12 +46,12 @@
 		"MESSAGE": "Our home is complete, but if you want to give us a gift, add miles to our honeymoon!",
 		"ENVELOPE_RAIN": {
 			"LABEL": "Envelope rain",
-			"MESSAGE": "Or if you prefer a cash gift, you can do so at our envelope rain table."
+			"MESSAGE": "Or if you prefer a cash gift, you can do so at our envelope rain table that will be at the event."
 		},
 		"DIALOG": {
 			"LABEL": "Thanks!",
 			"BANK_INFO": "Here are the options for {{ value }}.",
-			"MESSAGE": "Thank you for your contribution to our home!",
+			"MESSAGE": "From the bottom of our heart, thank you for your contribution to our honeymoon.",
 			"SNACK_BAR_MESSAGE": "The information was copied to your clipboard"
 		}
 	},

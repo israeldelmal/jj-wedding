@@ -11,7 +11,7 @@ export class SocialMediaComponent {
 	private readonly snackBar = inject(MatSnackBar)
 	private readonly translateService = inject(TranslateService)
 
-	readonly hashtag = '#Ms&MrValencia'
+	readonly hashtag = '#bodajorgeyjenny'
 	readonly rippleColor = 'rgb(0 0 0 / 8%)'
 	readonly socialMedia = [
 		{

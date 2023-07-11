@@ -27,13 +27,13 @@
 	},
 	"PASSES": {
 		"WE_MARRIED": "¡Nos casamos!",
-		"NO_KIDS": "Por medidas de seguridad del lugar, hemos decidido que nuestro evento será sólo para adultos. Esperamos que esta decisión no impida que contemos con tu presencia."
+		"NO_KIDS": "Por medidas de seguridad del lugar, hemos decidido que nuestro evento será solo para adultos. Esperamos que esta decisión no impida que contemos con tu presencia."
 	},
 	"SCHEDULE": {
 		"LABEL": "Cronograma",
 		"RELIGIOUS_CEREMONY": "Ceremonia Religiosa",
 		"RECEPTION": "Recepción",
-		"COCKTAIL": "Cocktail",
+		"COCKTAIL": "Cocktail de bienvenida",
 		"BRIDE_AND_GROOM_ENTRANCE": "Entrada de los novios",
 		"FEAST": "Banquete",
 		"PARTY_STARTS": "¡Qué empiece la fiesta!",
@@ -43,15 +43,15 @@
 		"LABEL": "Hospedaje"
 	},
 	"GIFT_TABLE": {
-		"MESSAGE": "Nuestra hogar está completo, pero si deseas hacernos un obsequio ¡Suma kilómetros a nuestra luna de miel!",
+		"MESSAGE": "Nuestra hogar está completo, pero si deseas concedernos un obsequio ¡Suma kilómetros a nuestra luna de miel!",
 		"ENVELOPE_RAIN": {
 			"LABEL": "Lluvia de sobres",
-			"MESSAGE": "O si prefieres un obsequio en efectivo podrás hacerlo en nuestra mesa de lluvia de sobres."
+			"MESSAGE": "O si prefieres un obsequio en efectivo podrás hacerlo en nuestra mesa de lluvia de sobres que habrá en el evento."
 		},
 		"DIALOG": {
 			"LABEL": "¡Gracias!",
 			"BANK_INFO": "Aquí tienes las opciones para {{ value }}.",
-			"MESSAGE": "¡Gracias por tu contribución a nuestro hogar!",
+			"MESSAGE": "De corazón, gracias por tu contribución a nuestra luna de miel.",
 			"SNACK_BAR_MESSAGE": "Se copió la información a tu portapapeles"
 		}
 	},
