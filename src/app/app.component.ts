@@ -18,5 +18,7 @@ export class AppComponent implements OnInit {
 		this.translateService.addLangs(['es', 'en'])
 		this.translateService.setDefaultLang(browserLang)
 		this.translateService.use(browserLang)
+
+		window.screen.orientation.lock('portrait')
 	}
 }
