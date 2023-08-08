@@ -7,6 +7,28 @@
 	scroll-snap-type: y mandatory;
 }
 
+.indicator {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	position: absolute;
+	bottom: 1rem;
+	animation: upToDown 1s ease-in-out infinite;
+}
+
+@keyframes upToDown {
+	0% {
+		transform: translateY(-0.25rem);
+	}
+	50% {
+		transform: translateY(0.25rem);
+	}
+	100% {
+		transform: translateY(-0.25rem);
+	}
+}
+
 .slide {
 	width: 100%;
 	height: 100%;
